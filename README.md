@@ -88,8 +88,23 @@ Now let us merge the workflow branch into the master
 - _git checkout master_
 - _git merge workflow_
 
-Create a new &#39;Dummy&#39; repository on your GitHub
+Create a new &#39;Dummy&#39; repository on your GitHub and add the new remote. Make sure to use your remote (not mine!!).
 
 - _git remote add myorigin https://github.com/vmsapereira/Dummy.git_
 - _git branch -M master_
 - _git push -u myorigin master_
+
+We could also remove the previous remote named origin and add the new one with a same name (or simply replace).
+
+- _git remote -v_
+- _git remote remove origin_
+- _git remote add origin https://github.com/vmsapereira/Dummy.git_
+
+or
+
+- _git remote set-url origin https://github.com/vmsapereira/Dummy.git_
+
+
+- _git branch -M master_
+- _git push -u myorigin master_
+
