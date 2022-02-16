@@ -6,11 +6,11 @@
 ### Windows:
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
-### Mac
+### Mac:
 
 [https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use\_mirror=autoselect](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
 
-### Linux
+### Linux:
    - **Debian/Ubuntu:** sudo apt-get install git-all
    - **Fedora:** sudo dnf install git-all
 
