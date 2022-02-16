@@ -108,3 +108,6 @@ or
 - _git branch -M master_
 - _git push -u origin master_
 
+## CI-CD
+
+Besides version control, github allows to conduct continuous integration tasks by, for example, testing you code, performing code coverage analysis among other actions. You might want to explore some of those features by following the Dummy project examplifying CI-CD for python code on GitHub. 
