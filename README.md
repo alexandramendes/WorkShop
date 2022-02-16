@@ -52,19 +52,19 @@ A project should always have a 'main' or 'master' branch, so we need to create i
 
 Create a GitHub account and a new project, &#39;engbio&#39;.
 
-Go to Settings/Developer settings and create a new access token. Add a note identifying the purpose, generate, copy the token and save it into a file.
+Go to Settings/Developer settings and create a new access token. Add a note identifying the purpose, generate, copy the token and save it into a file. We will need it later.
 
-Now let us configure git to define a remote origin
+Now let us configure git to define a remote origin. The remote origin should be the one you just created, your 'engbio' repository. 
 
 - _git remote add origin_ [_https://github.com/vmsapereira/engbio.git_](https://github.com/vmsapereira/engbio.git)
 
-And push the commits
+Now that we added a new remote named origin, we may push the commits to the repository:
 
 - _git push -u origin main_
 
 ## Git clone
 
-Another way to create a git project is to clone an existing one
+Another way to create a git project is to clone an existing one. Leave the 'engbio' folder and clone the following project. A copy of the project will be created into a folder Dummy, or another if a folder name is given:
 
 - _git clone https://github.com/vmspereira/Dummy.git_
 
@@ -74,6 +74,14 @@ You can list the branches and switch branches with the git commands:
 
 - _git branch -a_
 - _git checkout workflow_
+
+## VS code
+
+Visual Studio Code is free source-code editor made by Microsoft for Windows, Linux and macOS. The long list of features extended by user plugins includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. 
+
+Open the Dummy folder using VS code and explore the git management system it provides.
+
+## Merging branches
 
 Now let us merge the workflow branch into the master
 
