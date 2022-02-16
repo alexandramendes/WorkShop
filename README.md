@@ -1,36 +1,50 @@
 # WorkShop
 
 
-## Install Git on Windows:
+## Install Git
 
+### Windows:
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
-## Install Git on Mac
+### Mac
 
 [https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use\_mirror=autoselect](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
 
-Install Git on Linux
+### Linux
    - **Debian/Ubuntu:** sudo apt-get install git-all
    - **Fedora:** sudo dnf install git-all
 
 ## Git Config
 
+Now that you have git installed, you need to do some configuration: 
+
  - _git config --global user.name &quot;John Doe&quot;_
  - _git config --global user.email johndoe@example.com_
- - _git config –list_
- - _git config –show-origin_
+ 
+ Make sure to replace the user name and email by yours.
+ 
+## Your first project
+Create a folder 'engbio' and inside that same folder run the command:
 
-## Git init
+- _git init
 
-Create a new folder &#39;engbio&#39; and inside this folder:
+This will create a '.git' folder with all that git needs to perform version control.
 
-- _git init_
-
-Create a README.md file
+Create a new file _README.md_ with any editor of your choice. You might also create the file from the command line using
+`echo "Some Text" >> README.md `. You may now stage the new file and commit the changes.
 
 - _git add README.md_
-- _git commit -m &quot;first commit&quot;_
 - _git status_
+- _git commit -m &quot;first commit&quot;_
+
+You may want to verify the project status using:
+
+- _git status_
+
+Now let us create a branch for the project.Branches allow developers to diverge from the production version to fix a bug or add a feature without modifying the existing version.
+A project should always have a 'main' or 'master' branch, so we need to create it.
+
+- _git branch_
 - _git branch -M main_
 - _git branch_
 
