@@ -106,5 +106,5 @@ or
 
 
 - _git branch -M master_
-- _git push -u myorigin master_
+- _git push -u origin master_
 
